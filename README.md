@@ -370,3 +370,30 @@ Si tienes comentarios, sugerencias o quieres reutilizar el proyecto para otros a
 
   * Abre un **`issue`** en el repositorio.
   * O escribe a través de GitHub: [https://github.com/davidhernandezesv](https://www.google.com/search?q=https://github.com/davidhernandezesv)
+
+
+
+
+## 📊 Datos fuente
+
+Este proyecto utiliza los microdatos públicos del **Censo de Población y Vivienda 2024 de El Salvador**, disponibles en el Geoportal del Banco Central de Reserva (BCR):
+
+- Geoportal BCR – Bases de datos y tabulados:  
+  https://geoportal.bcr.gob.sv/pages/teg-base-de-datos-y-tabulados
+
+### Cómo obtener los datos
+
+Para reproducir el análisis, el usuario debe:
+
+1. Ir al enlace del Geoportal BCR.
+2. Descargar los microdatos del censo correspondientes a:
+   - Hogares  
+   - Viviendas  
+   - (Opcional) Población, si se quiere replicar análisis adicionales.
+3. Guardar los archivos en la carpeta `data/raw/` del repositorio con los siguientes nombres:
+
+   ```text
+   data/raw/hogares.csv
+   data/raw/viviendas.csv
+   data/raw/poblacion.csv
+```
